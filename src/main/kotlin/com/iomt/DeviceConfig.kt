@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 data class DeviceConfig(
     val id: Long,
     val general: General,
-    val characteristics: Map<String, Characteristic>
+    val characteristics: Map<String, Characteristic>,
 ) {
     @Serializable
     data class General(
